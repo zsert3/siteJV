@@ -737,10 +737,10 @@ hr { border-top: 1px solid #111010; }
 	.tm-home-box-2-description.box-3 { width: 175px; }
 	.hotel-search-form .form-group { margin-bottom: 30px; }
 	.home-description {
-	margin-top: 40px;
+	margin-top: 0px;
 	margin-right: -20px;
 	margin-left: 0px;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 	.tm-tours-box-1-link-left {	width: 65%;	}
 	.tm-tours-box-1-link-right { width: 35%; }
