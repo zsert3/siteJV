@@ -30,7 +30,10 @@ body { overflow-x: hidden; }
 	position: relative;
 	z-index: 100;
 }
-.tm-site-name-container { padding-top: 20px; }
+.tm-site-name-container {
+	margin-top: 20px;
+
+}
 .tm-site-name {
 	color: #FCDD44;
 	font-size: 27px;
@@ -45,6 +48,7 @@ body { overflow-x: hidden; }
 .tm-nav {
 	display: block;
 	overflow: hidden;
+	min-width: 550px;
 }
 .tm-nav li {
 	list-style: none;
@@ -297,7 +301,6 @@ body { overflow-x: hidden; }
 .section-margin-top { margin-top: 100px; }
 hr { border-top: 1px solid #111010; }
 .tm-section-header {
-	margin-bottom: 70px;
 	overflow: hidden;
 }
 .tm-section-title {
@@ -353,7 +356,10 @@ hr { border-top: 1px solid #111010; }
 .tm-home-box-2-description.box-3 { width: 175px; }
 .home-description {
 	margin: 50px auto;
-	padding: 0 30px;
+	padding-top: 0;
+	padding-right: 30px;
+	padding-left: 0px;
+	padding-bottom: 0;
 	text-align: center;
 }
 
@@ -730,7 +736,12 @@ hr { border-top: 1px solid #111010; }
 	}
 	.tm-home-box-2-description.box-3 { width: 175px; }
 	.hotel-search-form .form-group { margin-bottom: 30px; }
-	.home-description {	margin: 40px auto 40px;	}
+	.home-description {
+	margin-top: 40px;
+	margin-right: -20px;
+	margin-left: 0px;
+	margin-bottom: 40px;
+}
 	.tm-tours-box-1-link-left {	width: 65%;	}
 	.tm-tours-box-1-link-right { width: 35%; }
 	.tm-tours-box-2 { margin: 0 auto 30px; }
@@ -776,20 +787,22 @@ hr { border-top: 1px solid #111010; }
 	 * Comment by Jon Christensen
 	 */
 	.tm-nav.show {
-		opacity: 1;
-		height: auto;
-		transition: opacity 1s, height 0;
+	opacity: 1;
+	height: auto;
+	transition: opacity 1s, height 0;
+	min-width: 0px;
 	}
 	.tm-nav {
-	    opacity: 0;
-		transition: opacity 1s, height 0 1s;
-		height: 0;
-	    position: fixed;
-	    z-index: 1000;
-	    top: 69px;
-	    right: 15px;
-	    background: rgba(15,15,15,0.7);
-	    transition: all 0.3s ease;
+	opacity: 0;
+	transition: opacity 1s, height 0 1s;
+	height: 0;
+	position: fixed;
+	z-index: 1000;
+	top: 69px;
+	right: 15px;
+	background: rgba(15,15,15,0.7);
+	transition: all 0.3s ease;
+	width: auto;
 	}
 	.tm-nav li { float: none; }
 	.tm-nav li a {
