@@ -77,7 +77,7 @@
 	</section>
 
 	<!-- gray bg -->	
-	<section class="container tm-home-section-1" id="more">
+	<section class="" id="more">
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12">
 						</div>
@@ -116,7 +116,7 @@
             function ScaleSlider() {
                 var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
                 if (refSize) {
-                    refSize = Math.min(refSize, 600);
+                    refSize = Math.min(refSize, 3000);
                     jssor_1_slider.$ScaleWidth(refSize);
                 }
                 else {
@@ -231,72 +231,75 @@
         
     </style>
 
-    <div class="col-lg-12 col-md-12 col-sm-12" id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1200px; height: 600px; overflow: hidden; visibility: hidden;">
-
-        <!-- Loading Screen -->
-        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
-            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
-            <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
-        </div>
-        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1200px; height: 600px; overflow: hidden;">
-            <div data-p="112.50" style="display: inherit;">
-                <img data-u="image" src="img/banner 3.jpg" />
-                <img data-u="thumb" src="img/thumb-002.jpg" />
-          </div>
-            <div data-p="112.50" style="display: none;">
-                <img data-u="image" src="img/003.jpg" />
-                <img data-u="thumb" src="img/thumb-003.jpg" />
-            </div>
-            <div data-p="112.50" style="display: none;">
-              <img data-u="image" src="img/004.jpg" />
-                <img data-u="thumb" src="img/thumb-004.jpg" />
-            </div>
-            <div data-p="112.50" style="display: none;">
-                <img data-u="image" src="img/005.jpg" />
-                <img data-u="thumb" src="img/thumb-005.jpg" />
-            </div>
-            <div data-p="112.50" style="display: none;">
-                <img src="img/006.jpg" data-u="image" />
-                <img data-u="thumb" src="img/thumb-006.jpg" />
-            </div>
-            <div data-p="112.50" style="display: none;">
-                <img data-u="image" src="img/007.jpg" />
-                <img data-u="thumb" src="img/thumb-007.jpg" />
-            </div>
-            <div data-p="112.50" style="display: none;">
-                <img data-u="image" src="img/008.jpg" />
-                <img data-u="thumb" src="img/008.jpg" />
-            </div>
-            <div data-p="112.50" style="display: none;">
-              <img data-u="image" src="img/009.jpg" />
-                <img data-u="thumb" src="img/009.jpg" />
-            </div>
-            <div data-p="112.50" style="display: none;">
-                <img data-u="image" src="img/010.jpg" />
-                <img data-u="thumb" src="img/010.jpg" />
-            </div>
-            <div data-p="112.50" style="display: none;">
-                <img data-u="image" src="img/011.jpg" />
-                <img data-u="thumb" src="img/thumb-011.jpg" />
-            </div>
-        </div>
-        <!-- Thumbnail Navigator -->
-        <div u="thumbnavigator" class="jssort03" style="position:absolute;left:0px;bottom:0px;width:600px;height:60px;" data-autocenter="1">
-            <div style="position: absolute; top: 0; left: 0; width: 100%; height:100%; background-color: #000; filter:alpha(opacity=30.0); opacity:0.3;"></div>
-            <!-- Thumbnail Item Skin Begin -->
-            <div u="slides" style="cursor: default;">
-                <div u="prototype" class="p">
-                    <div class="w">
-                        <div u="thumbnailtemplate" class="t"></div>
-                    </div>
-                    <div class="c"></div>
+    <div class="col-lg-12 col-md-12 col-sm-12" >
+    	<div class="col-lg-10 col-md-10 col-sm-10 col-sm-10 col-xs-10 col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1" >
+            <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1200px; height: 600px; overflow: hidden; visibility: hidden;">
+                <!-- Loading Screen -->
+                <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+                    <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+                    <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
                 </div>
+                <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1200px; height: 600px; overflow: hidden;">
+                    <div data-p="112.50" style="display: inherit;">
+                        <img data-u="image" src="img/banner 3.jpg" />
+                        <img data-u="thumb" src="img/thumb-002.jpg" />
+                  </div>
+                    <div data-p="112.50" style="display: none;">
+                        <img data-u="image" src="img/003.jpg" />
+                        <img data-u="thumb" src="img/thumb-003.jpg" />
+                    </div>
+                    <div data-p="112.50" style="display: none;">
+                      <img data-u="image" src="img/004.jpg" />
+                        <img data-u="thumb" src="img/thumb-004.jpg" />
+                    </div>
+                    <div data-p="112.50" style="display: none;">
+                        <img data-u="image" src="img/005.jpg" />
+                        <img data-u="thumb" src="img/thumb-005.jpg" />
+                    </div>
+                    <div data-p="112.50" style="display: none;">
+                        <img src="img/006.jpg" data-u="image" />
+                        <img data-u="thumb" src="img/thumb-006.jpg" />
+                    </div>
+                    <div data-p="112.50" style="display: none;">
+                        <img data-u="image" src="img/007.jpg" />
+                        <img data-u="thumb" src="img/thumb-007.jpg" />
+                    </div>
+                    <div data-p="112.50" style="display: none;">
+                        <img data-u="image" src="img/008.jpg" />
+                        <img data-u="thumb" src="img/008.jpg" />
+                    </div>
+                    <div data-p="112.50" style="display: none;">
+                      <img data-u="image" src="img/009.jpg" />
+                        <img data-u="thumb" src="img/009.jpg" />
+                    </div>
+                    <div data-p="112.50" style="display: none;">
+                        <img data-u="image" src="img/010.jpg" />
+                        <img data-u="thumb" src="img/010.jpg" />
+                    </div>
+                    <div data-p="112.50" style="display: none;">
+                        <img data-u="image" src="img/011.jpg" />
+                        <img data-u="thumb" src="img/thumb-011.jpg" />
+                    </div>
+                </div>
+                <!-- Thumbnail Navigator -->
+                <div u="thumbnavigator" class="jssort03" style="position:absolute;left:0px;bottom:0px;width:600px;height:60px;" data-autocenter="1">
+                    <div style="position: absolute; top: 0; left: 0; width: 100%; height:100%; background-color: #000; filter:alpha(opacity=30.0); opacity:0.3;"></div>
+                    <!-- Thumbnail Item Skin Begin -->
+                    <div u="slides" style="cursor: default;">
+                        <div u="prototype" class="p">
+                            <div class="w">
+                                <div u="thumbnailtemplate" class="t"></div>
+                            </div>
+                            <div class="c"></div>
+                        </div>
+                    </div>
+                    <!-- Thumbnail Item Skin End -->
+                </div>
+                <!-- Arrow Navigator -->
+                <span data-u="arrowleft" class="jssora02l" style="top:0px;left:8px;width:55px;height:55px;" data-autocenter="2"></span>
+                <span data-u="arrowright" class="jssora02r" style="top:0px;right:8px;width:55px;height:55px;" data-autocenter="2"></span>
             </div>
-            <!-- Thumbnail Item Skin End -->
-        </div>
-        <!-- Arrow Navigator -->
-        <span data-u="arrowleft" class="jssora02l" style="top:0px;left:8px;width:55px;height:55px;" data-autocenter="2"></span>
-        <span data-u="arrowright" class="jssora02r" style="top:0px;right:8px;width:55px;height:55px;" data-autocenter="2"></span>
+     	</div>
     </div>
 
     <!-- #endregion Jssor Slider End -->
